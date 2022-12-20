@@ -2,7 +2,7 @@ class calculadora{
     init(){
         let clear=document.getElementById("clear");
         clear.onclick = function(){
-            alert("has pinchado el clear");
+            document.getElementById('result').value = ''
         }
         let num1=document.getElementById("div1");
         num1.onclick = function(){
